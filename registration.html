@@ -19,7 +19,7 @@
 </head>
 <body>
    <!-- Navigation-->
-   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" style="background-color: #f4623a;" id="mainNav">
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="index.html#page-top">Pluto</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -87,12 +87,24 @@
                         <label for="phone">Phone number</label>
                         <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                     </div>
-                    <!-- Message input-->
+                    <!-- Password -->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="phone" type="password" placeholder="Enter Your password" data-sb-validations="required" />
+                        <label for="phone">Password</label>
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">Password is required.</div>
+                    </div>
+                    <!-- Confirm Password -->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="phone" type="password" placeholder="Re-enter Your password" data-sb-validations="required" />
+                        <label for="phone">Re-enter Password</label>
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">Password Confirmation is mandatory.</div>
+                    </div>
+                    <!-- Message input
                     <div class="form-floating mb-3">
                         <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                         <label for="message">Message</label>
                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                    </div>
+                    </div>-->
                     <!-- Submit success message-->
                     <!---->
                     <!-- This is what your users will see when the form-->
